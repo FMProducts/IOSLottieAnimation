@@ -3,29 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9053D1DC5CD4BE435D8F1D18 /* Pods_IOSLottieAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8343B2351ACF4B1C6F6C51B /* Pods_IOSLottieAnimation.framework */; };
 		C83188B823DC530B00EF9688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83188B723DC530B00EF9688 /* AppDelegate.swift */; };
 		C83188BA23DC530B00EF9688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83188B923DC530B00EF9688 /* SceneDelegate.swift */; };
 		C83188BC23DC530B00EF9688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83188BB23DC530B00EF9688 /* ViewController.swift */; };
-		C83188BF23DC530B00EF9688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83188BD23DC530B00EF9688 /* Main.storyboard */; };
 		C83188C223DC530B00EF9688 /* IOSLottieAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C83188C023DC530B00EF9688 /* IOSLottieAnimation.xcdatamodeld */; };
 		C83188C423DC532A00EF9688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83188C323DC532A00EF9688 /* Assets.xcassets */; };
 		C83188C723DC532B00EF9688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83188C523DC532B00EF9688 /* LaunchScreen.storyboard */; };
+		C83188CF23DC5AFC00EF9688 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = C83188CE23DC5AFC00EF9688 /* animation.json */; };
+		C83188D223DC6F1800EF9688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83188D023DC6F1800EF9688 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4538745D4FADA6A14D95FF /* Pods-IOSLottieAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSLottieAnimation.release.xcconfig"; path = "Target Support Files/Pods-IOSLottieAnimation/Pods-IOSLottieAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		9E7C61CA6F45933DA9D1AB7F /* Pods-IOSLottieAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSLottieAnimation.debug.xcconfig"; path = "Target Support Files/Pods-IOSLottieAnimation/Pods-IOSLottieAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		C83188B423DC530B00EF9688 /* IOSLottieAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSLottieAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83188B723DC530B00EF9688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C83188B923DC530B00EF9688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C83188BB23DC530B00EF9688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C83188BE23DC530B00EF9688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C83188C123DC530B00EF9688 /* IOSLottieAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSLottieAnimation.xcdatamodel; sourceTree = "<group>"; };
 		C83188C323DC532A00EF9688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83188C623DC532B00EF9688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83188C823DC532B00EF9688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83188CE23DC5AFC00EF9688 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		C83188D123DC6F1800EF9688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IOSLottieAnimation/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8343B2351ACF4B1C6F6C51B /* Pods_IOSLottieAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSLottieAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9053D1DC5CD4BE435D8F1D18 /* Pods_IOSLottieAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17C57A47BA77D112E672FF17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8343B2351ACF4B1C6F6C51B /* Pods_IOSLottieAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C83188AB23DC530B00EF9688 = {
 			isa = PBXGroup;
 			children = (
 				C83188B623DC530B00EF9688 /* IOSLottieAnimation */,
 				C83188B523DC530B00EF9688 /* Products */,
+				C99AD752C7C5EBC7BD4179C9 /* Pods */,
+				17C57A47BA77D112E672FF17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +78,23 @@
 				C83188B723DC530B00EF9688 /* AppDelegate.swift */,
 				C83188B923DC530B00EF9688 /* SceneDelegate.swift */,
 				C83188BB23DC530B00EF9688 /* ViewController.swift */,
-				C83188BD23DC530B00EF9688 /* Main.storyboard */,
+				C83188CE23DC5AFC00EF9688 /* animation.json */,
 				C83188C323DC532A00EF9688 /* Assets.xcassets */,
+				C83188D023DC6F1800EF9688 /* Main.storyboard */,
 				C83188C523DC532B00EF9688 /* LaunchScreen.storyboard */,
 				C83188C823DC532B00EF9688 /* Info.plist */,
 				C83188C023DC530B00EF9688 /* IOSLottieAnimation.xcdatamodeld */,
 			);
 			path = IOSLottieAnimation;
+			sourceTree = "<group>";
+		};
+		C99AD752C7C5EBC7BD4179C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E7C61CA6F45933DA9D1AB7F /* Pods-IOSLottieAnimation.debug.xcconfig */,
+				0B4538745D4FADA6A14D95FF /* Pods-IOSLottieAnimation.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C83188CB23DC532B00EF9688 /* Build configuration list for PBXNativeTarget "IOSLottieAnimation" */;
 			buildPhases = (
+				BFDA42D9D3E5B3340DDBB527 /* [CP] Check Pods Manifest.lock */,
 				C83188B023DC530B00EF9688 /* Sources */,
 				C83188B123DC530B00EF9688 /* Frameworks */,
 				C83188B223DC530B00EF9688 /* Resources */,
+				98189D1DFEAA24A2ED12B936 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +159,54 @@
 			files = (
 				C83188C723DC532B00EF9688 /* LaunchScreen.storyboard in Resources */,
 				C83188C423DC532A00EF9688 /* Assets.xcassets in Resources */,
-				C83188BF23DC530B00EF9688 /* Main.storyboard in Resources */,
+				C83188CF23DC5AFC00EF9688 /* animation.json in Resources */,
+				C83188D223DC6F1800EF9688 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98189D1DFEAA24A2ED12B936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSLottieAnimation/Pods-IOSLottieAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOSLottieAnimation/Pods-IOSLottieAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOSLottieAnimation/Pods-IOSLottieAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDA42D9D3E5B3340DDBB527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSLottieAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C83188B023DC530B00EF9688 /* Sources */ = {
@@ -151,20 +223,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C83188BD23DC530B00EF9688 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C83188BE23DC530B00EF9688 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C83188C523DC532B00EF9688 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C83188C623DC532B00EF9688 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C83188D023DC6F1800EF9688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83188D123DC6F1800EF9688 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +358,7 @@
 		};
 		C83188CC23DC532B00EF9688 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7C61CA6F45933DA9D1AB7F /* Pods-IOSLottieAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +376,7 @@
 		};
 		C83188CD23DC532B00EF9688 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4538745D4FADA6A14D95FF /* Pods-IOSLottieAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
